@@ -2,11 +2,15 @@ import Spline from "@splinetool/react-spline";
 import styled from "styled-components";
 import { BsLinkedin } from 'react-icons/bs';
 import Logo from "./images/logo.svg";
-import IconTwitter from "./images/icon-twitter.svg";
-import IconYouTube from "./images/icon-youtube.svg";
 import IconLaptop from "./images/icon-laptop.svg";
 import {AiFillGithub} from 'react-icons/ai'; 
+
+
+
+
 export default function App() {
+ 
+ 
   return (
     <Wrapper>
       <Spline
@@ -15,11 +19,11 @@ export default function App() {
       />
       <Social>
         <div />
-        <a href = 'https://github.com/Ghaithgaied98' target = '_blank' style= {{color:"white"}}>
+        <a href = 'https://github.com/Ghaithgaied98' target = '_blank' rel="noreferrer" style= {{color:"white"}}>
         <AiFillGithub />
 
         </a>
-        <a href = 'https://www.linkedin.com/in/ghaithgaied/' target = '_blank' style= {{color:"white"}}>
+        <a href = 'https://www.linkedin.com/in/ghaithgaied/' target = '_blank' rel="noreferrer" style= {{color:"white"}}>
         
 
         <BsLinkedin/>
